@@ -19,7 +19,6 @@ Use `echo $0` to determine if you are using bash or zsh shell.
 Add in `~/.zshrc` or `~/.bashrc` (create the files if they do not exist):
 
 ```bash
-export USER='yourLogin'
 export MAIL='yourLogin@student.42.fr'
 ```
 
