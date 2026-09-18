@@ -3,12 +3,6 @@
 
 # Set variables
 
-if [ ! -z "$USER" ]
-then
-    echo "USER=`/usr/bin/whoami`" >> ~/.zshrc
-    echo "export USER" >> ~/.zshrc
-fi
-
 if [ ! -z "$GROUP" ]
 then
     echo "GROUP=`/usr/bin/id -gn $user`" >> ~/.zshrc
